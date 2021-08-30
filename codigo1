@@ -1,0 +1,23 @@
+Mkdir pallet
+cd pallet
+mkdir ash gary oaksLab
+cd ash
+touch bulbassauro.txt butterfree.txt charmander.txt
+mkdir pokedex
+cd pokedex
+touch zapdos.txt hoothoot.txt
+cd ../..
+cd gary
+touch blastoise.jpg intro mp3 eeve.jpg
+cd.. 
+cd oaksLab
+touch pokedex19961996.exe
+touch pokedex2014.2014.exe
+cd..
+cd ash
+cp *b ../oaksLab 
+touch snorlax.txt totodile.txt
+cp charmander.txt ..
+cd pokedex
+ls -a
+cd ../..
